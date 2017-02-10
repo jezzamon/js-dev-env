@@ -1,4 +1,4 @@
-import path from 'path';
+const path = require('path');
 
 export default {
   debug: true,
@@ -20,4 +20,4 @@ export default {
       {test: /\.css$/, loaders: ['style','css']}
     ]
   }
-}
+};
