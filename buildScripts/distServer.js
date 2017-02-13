@@ -7,6 +7,7 @@ import compression from 'compression';
 const port = 3000;
 const app = express();
 
+/* No webpack compiler or webpack middleware in this as its handled by build.js*/
 app.use(compression());
 app.use(express.static('dist'));
 

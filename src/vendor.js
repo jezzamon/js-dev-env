@@ -15,3 +15,9 @@
 /* eslint-disable no-unused-vars */
 
 import fetch from 'whatwg-fetch';
+import $ from 'jquery';
+import '../assets/bootstrap.min.js';
+import '../assets/material.min.js';
+import '../assets/material-kit.min.js';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../assets/css/material-kit.css';

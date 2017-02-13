@@ -3,6 +3,9 @@ import getBaseUrl from './baseUrl';
 
 const baseUrl = getBaseUrl();
 
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
+
 // export one public function
 export function getUsers() {
   return get('users');

@@ -1,6 +1,16 @@
+import dotenv from 'dotenv';
+dotenv.load();
+
 import './index.css';
 import { getUsers, deleteUser } from './api/userApi';
-/*eslint import/no-unresolved: [2, { caseSensitive: false }]*/
+
+import $ from 'jquery';
+import '../assets/bootstrap.min.js';
+import '../assets/material.min.js';
+import '../assets/material-kit.min.js';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; //load through node_modules to access font directory
+import '../assets/css/material-kit.css';
+
 //import numeral from 'numeral';
 
 //const courseValue = numeral(1000).format('$0,0.00');
