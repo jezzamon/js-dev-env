@@ -1,4 +1,6 @@
 /*eslint-disable no-console */
+/* This will build the files using prod version of webpack, with some messages for console */
+
 import webpack from 'webpack';
 import webpackConfig from '../webpack.config.prod';
 import chalk from 'chalk';
