@@ -1,6 +1,6 @@
 import './index.css';
 import { getUsers, deleteUser } from './api/userApi';
-
+/*eslint import/no-unresolved: [2, { caseSensitive: false }]*/
 //import numeral from 'numeral';
 
 //const courseValue = numeral(1000).format('$0,0.00');
