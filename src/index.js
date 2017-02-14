@@ -1,7 +1,6 @@
 import dotenv from 'dotenv';
 dotenv.load();
 
-import './index.css';
 import { getUsers, deleteUser } from './api/userApi';
 
 import $ from 'jquery';
@@ -10,6 +9,7 @@ import '../assets/material.min.js';
 import '../assets/material-kit.min.js';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; //load through node_modules to access font directory
 import '../assets/css/material-kit.css';
+import './index.css';
 
 //import numeral from 'numeral';
 
